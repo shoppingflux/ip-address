@@ -1,17 +1,22 @@
 {
-    "name": "shoppingfeed/ip-address",
-    "description": "provides the capabilities to create, manipulate and operate on IPv4 and IPv6 addresses and networks",
-    "type": "library",
-    "require": {
-        "php": ">=5.5"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "5.5.*"
-    },
-    "authors": [
-        {
-            "name": "lovenunu",
-            "email": "benjamin.perche@shopping-flux.com"
-        }
-    ]
+  "name": "shoppingfeed/ip-address",
+  "description": "provides the capabilities to create, manipulate and operate on IPv4 and IPv6 addresses and networks",
+  "type": "library",
+  "require": {
+    "php": ">=5.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ShoppingFeed\\Ip\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "lovenunu",
+      "email": "benjamin.perche@shopping-flux.com"
+    }
+  ]
 }
