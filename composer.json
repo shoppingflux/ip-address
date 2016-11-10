@@ -2,6 +2,7 @@
   "name": "shoppingfeed/ip-address",
   "description": "provides the capabilities to create, manipulate and operate on IPv4 and IPv6 addresses and networks",
   "type": "library",
+  "license": "LGPL-v3+",
   "require": {
     "php": ">=5.5"
   },
@@ -15,7 +16,7 @@
   },
   "authors": [
     {
-      "name": "lovenunu",
+      "name": "Benjamin Perche",
       "email": "benjamin.perche@shopping-flux.com"
     }
   ]
