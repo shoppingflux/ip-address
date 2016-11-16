@@ -45,7 +45,7 @@ final class Ip extends AbstractIp
 
     /**
      * Constant that represents a C class IP address (192.0.0.0 - 223.255.255.255)
-     * Networks with a default /16 netmask
+     * Networks with a default /24 netmask
      */
     const CLASS_C = 'C';
 
