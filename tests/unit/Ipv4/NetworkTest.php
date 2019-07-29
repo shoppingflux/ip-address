@@ -5,7 +5,7 @@ use ShoppingFeed\Ip\Ipv4\Ip;
 use ShoppingFeed\Ip\Ipv4\Netmask;
 use ShoppingFeed\Ip\Ipv4\Network;
 
-class NetworkTest extends \PHPUnit_Framework_TestCase
+class NetworkTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @dataProvider networkAndAddressesDataProvider
