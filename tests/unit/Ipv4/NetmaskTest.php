@@ -3,7 +3,7 @@ namespace ShoppingFeed\Ip\Ipv4;
 
 use ShoppingFeed\Ip\Exception\InvalidNetworkMaskException;
 
-class NetmaskTest extends \PHPUnit_Framework_TestCase
+class NetmaskTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @dataProvider ipv4CIDRDataProvider

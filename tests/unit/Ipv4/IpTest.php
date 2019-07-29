@@ -5,7 +5,7 @@ use ShoppingFeed\Ip\Exception\InvalidIpException;
 use ShoppingFeed\Ip\Exception\InvalidNetworkMaskException;
 use ShoppingFeed\Ip\NetmaskInterface;
 
-class IpTest extends \PHPUnit_Framework_TestCase
+class IpTest extends \PHPUnit\Framework\TestCase
 {
     public function testProvidingAnInvalidIpv4AddressWillFail()
     {
