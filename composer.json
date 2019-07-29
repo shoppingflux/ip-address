@@ -2,7 +2,7 @@
   "name": "shoppingfeed/ip-address",
   "description": "provides the capabilities to create, manipulate and operate on IPv4 and IPv6 addresses and networks",
   "type": "library",
-  "license": "LGPL-v3+",
+  "license": "MIT",
   "require": {
     "php": ">=5.6"
   },
